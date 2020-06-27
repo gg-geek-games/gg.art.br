@@ -1,0 +1,6 @@
+node_modules/
+.bin/
+.vs/
+.vscode/
+.cache/
+*lock*

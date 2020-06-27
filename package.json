@@ -1,0 +1,18 @@
+{
+  "name": "gg.art.br",
+  "version": "1.0.0",
+  "description": "Geek Games website",
+  "main": "index.html",
+  "repository": "git@github.com:gg-geek-games/gg.art.br.git",
+  "author": "Ivan Cavalheiro <ivanscavalheiro@gmail.com>",
+  "license": "CC-BY-NC-ND-2.0",
+  "scripts": {
+    "start": "yarn watch",
+    "watch": "parcel src/index.html -d dist/",
+    "build": "parcel build src/index.html -d dist/ --no-source-maps",
+    "prebuild": "rm -rf dist/"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

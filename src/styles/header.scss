@@ -1,0 +1,23 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 50vw;
+  transform: translate(-50%, 0);
+  height: 90px;
+  border: dashed yellow 2px;
+  color: yellow;
+  padding: 0 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    text-align: center;
+
+    h1 {
+      font-size: 18px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+  }
+}
